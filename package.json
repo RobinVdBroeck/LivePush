@@ -1,0 +1,21 @@
+{
+  "name": "livepush",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "client": "nodemon src/client.js",
+    "server": "nodemon src/server.js",
+    "queue": "nodemon src/queue.js",
+    "restapi": "nodemon src/restapi.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "uuid": "^7.0.3",
+    "winston": "^3.2.1",
+    "ws": "^7.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
